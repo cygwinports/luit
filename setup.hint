@@ -1,4 +1,4 @@
 category: X11
-requires: cygwin libfontenc1 zlib
+requires: cygwin libfontenc1
 sdesc: "Xorg Unicode Terminal Locale utility"
 ldesc: "Xorg Unicode Terminal Locale utility"
