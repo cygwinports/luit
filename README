@@ -3,7 +3,7 @@ luit
 X.Org Unicode Terminal Locale utility
 
 Runtime requirements:
-  cygwin-1.7.0-61
+  cygwin-1.7.0-62
   libfontenc1-1.0.4-10
   libgcc1-4.3.2-2
 
@@ -51,6 +51,10 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.0.4-2 -----
+Patch to make sure tty becomes controlling:
+http://cygwin.com/ml/cygwin-xfree/2009-10/msg00032.html
 
 ----- version 1.0.4-1 -----
 Version bump for X11R7.5.
