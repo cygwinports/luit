@@ -1,3 +1,0 @@
-inherit xorg
-
-PATCH_URI="http://lists.x.org/archives/xorg-devel/2009-October/002604.html"
