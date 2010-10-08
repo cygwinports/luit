@@ -1,4 +1,4 @@
 category: X11
-requires: libfontenc1 libgcc1
+requires: libfontenc1
 sdesc: "X.Org Unicode Terminal Locale utility"
 ldesc: "X.Org Unicode Terminal Locale utility"
