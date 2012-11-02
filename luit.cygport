@@ -1,0 +1,18 @@
+NAME="luit"
+VERSION=20121014
+RELEASE=1
+CATEGORY="Shells"
+SUMMARY="Locale support for Unicode virtual terminals"
+DESCRIPTION="Luit is a filter that can be run between an arbitrary application
+and a UTF-8 terminal emulator. It will convert application output from the
+locale's encoding into UTF-8, and convert terminal input from UTF-8 into the
+locale's encoding. It is mainly used to support xterm."
+HOMEPAGE="http://invisible-island.net/luit/"
+SRC_URI="ftp://invisible-island.net/luit/luit-${VERSION}.tgz"
+
+src_compile() {
+	# cannot autoreconf: undefined macro: AC_ACVERSION
+	cd ${B}
+	cygconf --enable-iconv
+	cygmake
+}
