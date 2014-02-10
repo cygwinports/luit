@@ -1,5 +1,5 @@
 NAME="luit"
-VERSION=20121014
+VERSION=20130217
 RELEASE=1
 CATEGORY="Shells"
 SUMMARY="Locale support for Unicode virtual terminals"
